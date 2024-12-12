@@ -36,7 +36,7 @@ Copy code
 -> Enter a task in the input box and click "Add" or press Enter.
 -> Use the checkbox to mark a task as completed.
 -> Click the "Delete" button to remove a task.
--> Check out the live version of the website: Live Demo
+-> Check out the live version of the website:  https://codingwithsubhransu.github.io/Personal-Todo-website/
 
 
 **Future Enhancements**
