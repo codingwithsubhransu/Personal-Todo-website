@@ -1,0 +1,111 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    color: #dfeed5;
+    background-color: #013437;
+}
+
+.heading{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.addtask{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.task{
+    color: #0322e9;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    min-height: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(213, 238, 243, 0.5);
+    border-radius: 7px;
+    position: relative;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#input{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 9px;
+    border: 1px solid #358600;
+    border: none;
+    margin-right: 5px;
+    color: #0322e9;
+    outline: none;
+    height: 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+
+
+#add{
+    position: relative;
+    min-width: 40px;
+    height: 38px;
+    margin-left: 5px;
+    border: none;
+    background-color: #358600;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 12px;
+}
+
+.delete{
+    height: 30px;
+    width: 70px;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+.task:hover{
+    transform: scale(1.1);
+}
+
